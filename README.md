@@ -55,5 +55,25 @@ abc@4788b49e1e4f:~/workspace$ history
         #git push variableName BranchName
     14  git push origin main
 
+    15  git log
+        # Point to latest Commit ID
+    16  git reset --soft 6afd
+    
+    17  git add -m "This is my initial commit"
+    18  git push -f origin main
+    19  git add .
+    20  git status
+    
+        #-> Error to updated config
+    21  git commit -m "This is my 1st Commit"
+    22  git config --global user.email "sb.1nh06cs128@gmail.com"
+    23  git config --global user.name "1nh06cs128"
+    24  git commit -m "This is my 1st Commit"
+    25  git push origin main
+
+
+    git commit -m "README.md file updated in neuron lab"
+    git log
+
 ```
 
